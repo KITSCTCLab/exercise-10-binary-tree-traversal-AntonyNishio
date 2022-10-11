@@ -7,7 +7,7 @@ class BinaryTreeNode:
     """
     def __init__(self, data):
         self.data = data
-        self.left_child = None
+        self.left_cild = None
         self.right_child = None
 
 
@@ -19,7 +19,7 @@ def insert(root, new_value) -> BinaryTreeNode:
         """
     if (root == None):
         root = BinaryTreeNode(new_value)
-        return roo
+        return root
     else:
         if root.data > new_value:
             if root.left_child is None:
